@@ -1,7 +1,12 @@
 var Sequelize = require('sequelize');
 
-var connection = new Sequelize('testSONR', 'root', 'root', {
-	dialect: 'mysql',
+// var connection = new Sequelize('testSONR', 'root', 'root', {
+// 	dialect: 'mysql',
+// 	operatorsAliases: false,
+// });
+
+var connection = new Sequelize('heroku_d8acfddee765193', 'bc95bc2b44d16d', 'b19a7702', {
+	dialect: 'us-cdbr-east-02.cleardb.com',
 	operatorsAliases: false,
 });
 
