@@ -6,7 +6,8 @@ var Sequelize = require('sequelize');
 // });
 
 var connection = new Sequelize('heroku_d8acfddee765193', 'bc95bc2b44d16d', 'b19a7702', {
-	dialect: 'us-cdbr-east-02.cleardb.com',
+	host: 'us-cdbr-east-02.cleardb.com',
+	dialect: 'mysql',
 	operatorsAliases: false,
 });
 
